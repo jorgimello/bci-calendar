@@ -4,27 +4,27 @@
 
     consts = {
         monthNames: [
-            'January',
-            'February',
-            'March',
-            'April',
-            'May',
-            'June',
-            'July',
-            'August',
-            'September',
-            'October',
-            'November',
-            'December'
+            'Janeiro',
+            'Fevereiro',
+            'Março',
+            'Abril',
+            'Maio',
+            'Junho',
+            'Julho',
+            'Agosto',
+            'Setembro',
+            'Outubro',
+            'Novembro',
+            'Dezembro'
         ],
         dayNames: [
-            'Sunday',
-            'Monday',
-            'Tuesday',
-            'Wednesday',
-            'Thursday',
-            'Friday',
-            'Saturday'
+            'Domingo',
+            'Segunda',
+            'Terça',
+            'Quarta',
+            'Quinta',
+            'Sexta',
+            'Sábado'
         ]
     };
 
@@ -56,7 +56,7 @@
         }
 
         if (viewModel.dataPoints.length == 0) {
-            noData(calendar, 'No data for selected Year and Month.');
+            noData(calendar, 'Sem dados para ano e mês selecionados.');
             return;
         }
 
